@@ -1,0 +1,208 @@
+@font-face{
+    font-family:nintendoFont;
+    src:url(font/TypefaceMarioWorldPixelFilledRegular-rgVMx.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+    border:none;
+    font-family: nintendoFont;
+}
+body{
+    background-color:cadetblue;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+#header-text{
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height: auto;
+    margin:0 auto;
+    margin:1% 1%;
+    padding:0;
+    padding:2% 1%;
+    border:none;
+    outline:none;
+    font-family: nintendoFont;
+    font-size:3vw;
+    font-weight: bold;
+    font-variant: normal;
+    font-style: normal;
+    text-decoration:none;
+    line-height: 1.5;
+    text-align:center;
+}
+.container-area{
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:85%;
+    min-height:85%;
+    max-height:85%;
+    margin:0 auto;
+    padding:0;
+    outline:none;
+    border:none;
+    overflow:hidden; 
+    margin-left:5%;
+}
+
+.elements-row{
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:85%;
+    min-height:85%;
+    max-height:85%;
+    margin:0 auto;
+    padding:0;
+    outline:none;
+    border:none;
+    overflow:hidden; 
+}
+.green-box{
+    position:relative;
+    display:inline-block;
+    align-items:center;
+    width:13vw;
+    min-width:13vw;
+    max-width:13vw;
+    height:13vw;
+    min-height:13vw;
+    max-height:13vw;
+    margin:0 auto;
+    margin-left: 30%;
+    margin-top:0;
+    padding:0;
+    outline:none;
+    border:none;
+    overflow:hidden; 
+    background-color: green;
+    border-radius: 50px;
+    border:10px solid black;
+    text-align:left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.red-box{
+    position:relative;
+    display:inline-block;
+    align-items:center;
+    width:13vw;
+    min-width:13vw;
+    max-width:13vw;
+    height:13vw;
+    min-height:13vw;
+    max-height:13vw;
+    margin:0 auto;
+    margin-right: 30%;
+    margin-top:0%;
+    margin-left:1%;
+    padding:0;
+    outline:none;
+    border:none;
+    overflow:hidden; 
+    background-color: red;
+    border-radius: 50px;
+    border:10px solid black;
+    text-align:left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.elements-row-2{
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:85%;
+    min-height:85%;
+    max-height:85%;
+    margin:0 auto;
+    padding:0;
+    outline:none;
+    border:none;
+    overflow:hidden;     
+}
+
+.yellow-box{
+    position:relative;
+    display:inline-block;
+    align-items:center;
+    width:13vw;
+    min-width:13vw;
+    max-width:13vw;
+    height:13vw;
+    min-height:13vw;
+    max-height:13vw;
+    margin:0 auto;
+    margin-left: 30%;
+    margin-top:0%;
+    padding:0;
+    outline:none;
+    border:none;
+    overflow:hidden; 
+    background-color: yellow;
+    border-radius: 50px;
+    border:10px solid black;
+    text-align:left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blue-box{
+    position:relative;
+    display:inline-block;
+    align-items:center;
+    width:13vw;
+    min-width:13vw;
+    max-width:13vw;
+    height:13vw;
+    min-height:13vw;
+    max-height:13vw;
+    margin:0 auto;
+    margin-right: 30%;
+    margin-top:1%;
+    margin-left:1%;
+    padding:0;
+    outline:none;
+    border:none;
+    overflow:hidden; 
+    background-color: blue;
+    border-radius: 50px;
+    border:10px solid black;
+    text-align:left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.footer-area{
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:20px;
+    background:#ccc;
+    margin:0 auto;
+    padding:0;
+    padding:2% 1%;
+    border:none;
+    outline:none;
+    font-family: nintendoFont;
+    font-size:1.5vw;
+    font-weight: bold;
+    font-variant: normal;
+    font-style: normal;
+    text-decoration:none;
+    line-height: 1.5;
+    text-align:center;
+    background-color:rgb(44, 190, 235);
+    color:rgb(77, 47, 72);
+    padding-top:1%;
+}
+.game-over{
+    background-color:red;
+    opacity: 0.8;
+}
